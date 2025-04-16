@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    max-width: 1145px;
+    margin: 0 auto;
+}
+
+
+/* header */
+
+.header_section {
+    padding: 10px 0;
+    background-color: #F3F0EB;
+}
+
+.header_section .manu_col .nav-item .nav-link:hover {
+    color: #ff6600 !important;
+    text-decoration: underline !important;
+    transition: color 0.3s ease, text-decoration 0.3s ease !important;
+}
+
+.banner_section .banner_img img {
+    width: 100%;
+}
+
+h2,
+h5 {
+    font-size: 25px;
+    font-weight: 500;
+    color: #A53F1B;
+    text-transform: capitalize;
+}
+
+h2 {
+    text-align: center;
+    padding: 70px 0 30px;
+}
+
+.card-body a {
+    text-decoration: none;
+    color: #bb3708;
+    padding: 10px 40px;
+    background-color: #efcb9a;
+    border-radius: 50px;
+}
+
+.Farming_Guides,
+.Corps_Details,
+.Pest_Control {
+    background-color: #F3F0EB;
+}
+
+.card-img,
+.card-img-top {
+    height: 30vh;
+}
+
+.footer_section {
+    padding: 80px 0;
+    background-color: #EFCB9A;
+}
+
+.footer_section .cp p {
+    font-size: 25px;
+    font-weight: 500;
+    color: #268C44;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.details {
+    background-color: #F3F0EB;
+}
+
+.details .container .about_img img {
+    width: 100%;
+}
+
+.details .container .about_text {
+    margin-top: 160px;
+}
+
+.details .container .about_text h4 {
+    font-size: 25px;
+    font-weight: 500;
+    color: #A53F1B;
+    padding: 20px 0;
+    text-transform: capitalize;
+}
+
+form {
+    margin: 50px 0;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.text {
+    text-align: center;
+    color: #A53F1B;
+}
+
+iframe {
+    width: 100%;
+}
+
+
+/* ======================== Responsive CSS ======================== */
+
+
+/* For tablets (min-width: 768px and max-width: 991px) */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    h2 {
+        font-size: 22px;
+        padding: 50px 0 20px;
+    }
+    .card-img,
+    .card-img-top {
+        height: 25vh;
+    }
+    .details .container .about_text {
+        margin-top: 100px;
+    }
+    .footer_section .cp p {
+        font-size: 20px;
+    }
+}
+
+
+/* For mobile devices (max-width: 767px) */
+
+@media (max-width: 767px) {
+    .navbar-brand img {
+        max-width: 120px;
+    }
+    h2 {
+        font-size: 20px;
+        padding: 40px 0 20px;
+    }
+    .card-body a {
+        padding: 8px 30px;
+        font-size: 14px;
+    }
+    .card-img,
+    .card-img-top {
+        height: 20vh;
+    }
+    .details .container .about_text {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .footer_section {
+        padding: 50px 0;
+    }
+    .footer_section .cp p {
+        font-size: 18px;
+    }
+    .banner_section .banner_img img,
+    .details .container .about_img img {
+        height: auto;
+        max-height: 200px;
+        object-fit: cover;
+    }
+    .nav-item .nav-link {
+        text-align: center;
+        padding: 10px 0;
+    }
+}
+
+
+/* For large desktops (min-width: 1200px) */
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
