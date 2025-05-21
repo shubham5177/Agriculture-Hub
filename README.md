@@ -1,12 +1,35 @@
-├── index.html          # Main Landing Page
-├── farming.html        # Farming Guides Page
-├── pest.html           # Pest Control Tips Page
-├── growth.html         # Crop Growth Tracker Tool
-├── contuct.html        # Contact Us Page
-├── style.css           # Main Stylesheet
-├── styles.css          # Styles for Growth Tracker
-├── script.js           # Alert popup for contact form
-├── scripts.js          # Crop growth tracking logic
-├── assets/             # Images and Videos (assumed)
+# 🌾 Agriculture Hub
 
-#   
+**Agriculture Hub** is a modern, informative website designed to support and educate farmers, enthusiasts, and students about sustainable agricultural practices. Built with **HTML** and **CSS**, it features a clean layout, engaging visuals, and essential content sections related to farming, tools, benefits, and contact information.
+
+🌐 **Live Demo**: [Click here to view the website](https://shubham5177.github.io/Agriculture-Hub/)
+
+---
+
+## 🌟 Features
+
+- 🧑‍🌾 Home section with a welcoming message and visuals
+- 🌱 Information about farming and its benefits
+- 🛠️ Tools and technologies used in modern agriculture
+- 📢 Contact section for inquiries or feedback
+- 🎨 Clean and responsive design with a green, nature-themed aesthetic
+
+
+
+## 🛠️ Technologies Used
+
+- **HTML5** – Structure and layout  
+- **CSS3** – Styling and visual design  
+- *(No JavaScript used – fully static website)*
+
+---
+
+## 📁 Project Structure
+
+Agriculture-Hub/
+├── index.html # Main HTML file
+├── style.css # Styling for the entire site
+└── README.md # Documentation
+
+## All photos are directly save in Agriculture-Hub folder
+
